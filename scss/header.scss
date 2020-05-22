@@ -1,0 +1,162 @@
+/* ------------------- header ------------------- */
+.header {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.header__logo {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header__catchcopy {
+  font-size: 12px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.header__nav-item {
+  &:first-of-type {
+    margin-right: 20px;
+  }
+}
+
+.header__nav-link {
+  color: inherit;
+  font-size: 12px;
+  font-weight: 300;
+}
+.header__consul-dial {
+  border: 1px solid #000;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 200;
+  padding: 2px;
+}
+
+.header__consul {
+  padding: 10px 20px;
+}
+
+.header__consul-tel {
+  color: red;
+  font-size:16px;
+  font-weight: bold;
+}
+
+.header__consul-reception {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.header__mail {
+  display: flex;
+  align-items: center;
+  background: #E60011;
+  padding: 0 6px;
+}
+
+.header__mail-link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__mail-text {
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+}
+
+.header-sp {
+  position: fixed;
+  top: 0;
+  height: 70px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  z-index: 99999;
+  justify-content: space-between;
+  box-shadow: 0 0 8px grey;
+  width: 100%;
+  .container {
+    display: flex;
+  }
+}
+
+.header__logo-sp {
+  padding: 10px 0;
+  width: 65%;
+  text-align: center;
+}
+
+.header__catchcopy-sp {
+  font-size: 10px;
+}
+
+.header__blog-title-sp {
+  font-size: 24px;
+}
+
+.header__tell-sp {
+  position: relative;
+  width: 17.5%;
+  border: #e60012 2px solid;
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 75%;
+    width: auto;
+  }
+}
+
+.header__humb-sp {
+  position: relative;
+  background-color: #231815;
+  width: 17.5%;
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    height: 75%;
+    width: auto;
+  }
+}
+
+.nav-sp-area {
+  margin-top: 70px;
+}
+
+.nav-sp__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-sp__item {
+  background: #e60012;
+  &:nth-of-type(2) {
+    background: #eb6100;
+  }
+  &:last-of-type {
+    background: #009a3e;
+  }
+}
